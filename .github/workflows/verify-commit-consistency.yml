@@ -47,4 +47,4 @@ jobs:
           echo "RESOLVED_SHA=${{ steps.sha.outputs.result }}"
           echo "CHECKED_OUT_SHA=$(git rev-parse HEAD)"
           echo "====================================="
-
+test trigger
